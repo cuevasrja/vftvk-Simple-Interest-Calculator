@@ -26,10 +26,19 @@ input, select{
 button{
   border: 1px solid #2787d4;
   border-radius: 28px;
+  padding: 2px 8px;
   background: #03a9f4;
   color: white;
   font-size: 1rem;
   font-weight: 700;
+}
+button:active{
+  color: black;
+  box-shadow: 3px 3px black;
+}
+button:hover{
+  cursor: pointer;
+  box-shadow: 3px 3px black;
 }
 #inter, #failed{
   display: none;
